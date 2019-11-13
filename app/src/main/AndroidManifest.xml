@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.realvibedev.paoquente">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBarr">
+        <activity android:name="com.realvibedev.paoquente.TelaPermissaoLocalizacao"></activity>
+        <activity android:name="com.realvibedev.paoquente.TelaConfigNotificacoeseOutros" />
+        <activity android:name="com.realvibedev.paoquente.TelaCadastrar" />
+        <activity android:name="com.realvibedev.paoquente.TelaCadastroEstabelecimento" />
+        <activity android:name="com.realvibedev.paoquente.TelaTermosdeUso" />
+        <activity android:name="com.realvibedev.paoquente.TelaCadastro" />
+        <activity android:name="com.realvibedev.paoquente.TelaPromocao" />
+        <activity android:name="com.realvibedev.paoquente.TelaChatCliente" />
+        <activity android:name="com.realvibedev.paoquente.Padaria.TelaGaleriaPadaria" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDK2T6brnAuvDSS1IHh9T3686YSjHVYjRI" />
+
+        <activity
+            android:name="com.realvibedev.paoquente.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.realvibedev.paoquente.TelaPrincipal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.TelaAdd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.TelaConfig"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.TelaPainel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.TelaComercio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.TelaContato"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.TelaDesenvolvedor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.Padaria.PainelAdministrativo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.TelaAgendar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.Padaria.TelaConfigAdministrativo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.TelaInstrucoes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.realvibedev.paoquente.TelaPadaria"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.realvibedev.paoquente.Service.MyFirebaseIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.realvibedev.paoquente.Service.MyFirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.realvibedev.paoquente.TelaMapa" />
+        <activity
+            android:name="com.realvibedev.paoquente.TelaNotificarImagem"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.realvibedev.paoquente.Padaria.TelaPerfilPadaria" />
+        <activity android:name="com.realvibedev.paoquente.Padaria.TelaEditInfo" />
+        <activity android:name="com.realvibedev.paoquente.TelaMensagens" />
+        <activity android:name="com.realvibedev.paoquente.TelaEditPerfil" />
+        <activity android:name="com.realvibedev.paoquente.TelaConfiguracoes" />
+        <activity android:name="com.realvibedev.paoquente.Padaria.TelaMensagensPadaria" />
+        <activity android:name="com.realvibedev.paoquente.Padaria.TelaPromosPadaria" />
+        <activity android:name="com.realvibedev.paoquente.Padaria.TelaChat" />
+    </application>
+
+</manifest>

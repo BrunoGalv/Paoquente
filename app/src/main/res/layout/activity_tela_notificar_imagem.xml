@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oak"
+    tools:context="com.realvibedev.paoquente.TelaNotificarImagem">
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="38dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Digite aqui..."
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:fontFamily="serif"
+        android:text="Notificar com imagem"
+        android:textColor="@android:color/background_dark"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button21"
+        android:layout_below="@+id/button22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/dimensionphoto" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        app:srcCompat="@color/common_google_signin_btn_text_light_default" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@color/Marrom"
+        android:fontFamily="serif"
+        android:text="Notificar"
+        android:textAllCaps="false"
+        android:textColor="@color/amarelo"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@color/Marrom"
+        android:fontFamily="serif"
+        android:text="Escolher imagem"
+        android:textAllCaps="false"
+        android:textColor="@color/amarelo"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/white"
+        android:fontFamily="serif"
+        android:text="Carregando..."
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+</RelativeLayout>

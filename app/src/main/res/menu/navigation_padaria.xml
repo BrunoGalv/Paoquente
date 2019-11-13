@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_informacao"
+        android:icon="@mipmap/loja"
+        android:title="Informações" />
+
+    <item
+        android:id="@+id/navigation_promocoes"
+        android:icon="@mipmap/promocoes"
+        android:title="Promoções" />
+
+    <item
+        android:id="@+id/navigation_galeria"
+        android:icon="@mipmap/galeria"
+        android:title="Galeria" />
+
+    <item
+        android:id="@+id/navigation_star"
+        android:icon="@mipmap/star"
+        android:title="Avaliações" />
+
+
+</menu>

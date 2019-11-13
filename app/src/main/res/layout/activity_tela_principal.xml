@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.realvibedev.paoquente.TelaPrincipal">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:paddingRight="10dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@mipmap/menu" />
+
+        <TextView
+            android:id="@+id/textView157"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="serif"
+            android:text="Favoritos"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="-9dp"
+            android:layout_marginRight="-9dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:paddingLeft="-10dp"
+            android:paddingRight="20dp"
+            android:theme="@style/MySearchView">
+
+        </SearchView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout"
+        android:background="@android:color/white">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_above="@+id/navigationBottom"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:elevation="25dp"
+            app:srcCompat="@color/amarelo" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigationBottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/white"
+            app:elevation="24dp"
+            app:itemIconTint="@drawable/bttom_n_v"
+            app:itemTextColor="@drawable/bttom_n_v"
+            app:menu="@menu/menu" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

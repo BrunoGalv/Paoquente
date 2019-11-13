@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">Pao Quente</string>
+    <string name="versao">Versão: 2.0.0</string>
+
+
+    <string name="seTornePremium">Infelizmente o Chat não faz parte do seu plano.\nSe torne <font color='#303f9f'>Premium</font> para poder trocar mensagens com seu cliente!</string>
+
+    <string name="mastercard" translatable="false">Mastercard</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="as">ás</string>
+    <string name="erro">Erro, tente novamente.</string>
+    <string name="visa" translatable="false">Visa</string>
+    <string name="elo" translatable="false">Elo</string>
+    <string name="hipercard" translatable="false">Hipercard</string>
+    <string name="americanexpress" translatable="false">American Express</string>
+    <string name="dinersclub" translatable="false">Diners club</string>
+    <string name="segundafeira">Segunda-feira</string>
+    <string name="tercafeira">Terça-feira</string>
+    <string name="quartafeira">Quarta-feira</string>
+    <string name="quintafeira">Quinta-feira</string>
+    <string name="sextafeira">Sexta-feira</string>
+    <string name="sabado">Sábado</string>
+    <string name="domingo">Domingo</string>
+    <string name="naoabre">Não abre</string>
+    <string name="semConexao">Sem conexão com a internet!</string>
+    <string name="nao">Não</string>
+    <string name="sim">Sim</string>
+    <string name="ok">Ok</string>
+    <string name="proximo">Próximo</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="criar">Criar</string>
+    <string name="enviar">Enviar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="add">Adicionar</string>
+    <string name="addando">Adicionando...</string>
+    <string name="edit">Editar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="canceladoo">Cancelado</string>
+    <string name="cancelando">Cancelando...</string>
+    <string name="cuidado">Cuidado!</string>
+    <string name="digiteDescricao">Digite a descrição</string>
+    <string name="descricao">Descrição</string>
+    <string name="dinheiro">Dinheiro</string>
+    <string name="telefone2">Telefone</string>
+    <string name="telefone1">Telefone1:</string>
+    <string name="telefone2s">Telefone2:</string>
+    <string name="telefone3">Telefone3:</string>
+    <string name="telefone4">Telefone4:</string>
+    <string name="telefone5">Telefone5:</string>
+    <string name="wpp" translatable="false">Wpp:</string>
+    <string name="telefoneObs">Para os números de telefone preencha nesse formato: (XX) XXXX-XXXX ou (XX) XXXXX-XXXX</string>
+    <string name="outro">Outros</string>
+    <string name="hora">Hora</string>
+    <string name="seg">Seg</string>
+    <string name="ter">Ter</string>
+    <string name="quar">Quar</string>
+    <string name="quin">Quin</string>
+    <string name="sex">Sex</string>
+    <string name="sab">Sab</string>
+    <string name="dom">Dom</string>
+    <string name="minuto">Minutos</string>
+    <string name="queroCadastrar"><u>Quero cadastrar meu estabelecimento</u>\u0020</string>
+
+
+    <!--TODO: Tela Cadastrar Cel-->
+    <string name="insiraCel">Insira seu número de celular</string>
+    <string name="avancar">Avançar</string>
+    <string name="numeroCel">Número de celular</string>
+    <string name="numeroCelErrado">O número tem formato inválido!</string>
+    <string name="verificacaoFalhou">A verificação falhou, tenha certeza que o número está certo, tente novamente.</string>
+    <string name="verificacaoExcedeu">Expirou o tempo da verificação!</string>
+    <string name="codigoVerificacao">Insira o código</string>
+    <string name="codigoVerificacaoErrado">O código inserido está incorreto.</string>
+    <string name="codigoVerificacaoDeuRuim">Não foi possível verificar seu código. Tente novamente.</string>
+    <string name="requisitoLegalVerificacao">Toque em Cadastrar para continuar e aceitar os <font color='#303f9f'>Termos de Uso</font> e a <font color='#303f9f'>Política de Privacidade</font> do aplicativo Pão Quente.</string>
+    <string name="requisitoLegal">Toque em Avançar para verificar sua conta. Um SMS pode ser enviado para verificar seu número. Podem ser cobradas tarifas de dados e de mensagens.</string>
+    <string name="concordoTermosEPoliticaBlack">Concordo com os Termos de Uso e a Política de Privacidade.</string>
+    <string name="concordoTermosEPolitica">Concordo com os <font color='#303f9f'>Termos de Uso</font> e a <font color='#303f9f'>Política de Privacidade.</font></string>
+
+    <!--TODO: Tela PlanoSalao-->
+    <string name="preenchaNome">Preencha o nome do Estabelecimento</string>
+    <string name="preenchaTelefone">Preencha o campo do telefone</string>
+    <string name="senhaPequena">A senha deve conter no mínimo 6 carácteres</string>
+    <string name="dispositivoNaoSuporta">O seu dispositivo não suporta o Google app-billing, entre em contato conosco!</string>
+    <string name="jaTemAssinatura">Você já tem uma assinatura</string>
+    <string name="digiteEmailValido">Digite um email válido. Ex: XXX@XXXX.com</string>
+    <string name="assinaturaSucesso">Assinatura efetuada com sucesso!</string>
+    <string name="preenchaCupom">Digite o cupom</string>
+    <string name="cupomNValido">O cupom inserido não é válido</string>
+    <string name="cupomAcabou">O cupom inserido acabou</string>
+    <string name="cupomAplicado">Cupom aplicado!</string>
+    <string name="erroEmail">O email está incorreto ou já está sendo usado!</string>
+    <string name="erroContato">Erro, tente novamente, caso o erro persistir entre em contato conosco!</string>
+    <string name="preenchaoSenha">Prencha o campo da Senha</string>
+    <string name="preenchaoEmail">Informe o seu Email</string>
+
+
+    <string-array name="Estados">
+        <item>Rio de Janeiro</item>
+        <item>São Paulo</item>
+    </string-array>
+    <string-array name="CidadesRJ">
+        <item>Rio de Janeiro</item>
+    </string-array>
+    <string-array name="CidadesSP">
+        <item>São Paulo</item>
+    </string-array>
+    <string-array name="BairrosRJ">
+        <item>Bairro</item>
+        <item>Anchieta</item>
+        <item>Bangu</item>
+        <item>Barra da Tijuca</item>
+        <item>Benfica</item>
+        <item>Bento Ribeiro</item>
+        <item>Bonsucesso</item>
+        <item>Botafogo</item>
+        <item>Campinho</item>
+        <item>Campo dos Afonsos</item>
+        <item>Campo Grande</item>
+        <item>Cascadura</item>
+        <item>Catete</item>
+        <item>Centro</item>
+        <item>Cidade de Deus</item>
+        <item>Cidade Universitária</item>
+        <item>Coelho Neto</item>
+        <item>Copacabana</item>
+        <item>Deodoro</item>
+        <item>Encantado</item>
+        <item>Engenho de Dentro</item>
+        <item>Engenho Novo</item>
+        <item>Flamengo</item>
+        <item>Freguesia</item>
+        <item>Galeão</item>
+        <item>Gardênia Azul</item>
+        <item>Gávea</item>
+        <item>Grajaú</item>
+        <item>Guadalupe</item>
+        <item>Guaratiba</item>
+        <item>Humaitá</item>
+        <item>Inhaúma</item>
+        <item>Ipanema</item>
+        <item>Irajá</item>
+        <item>Jacaré</item>
+        <item>Jacarepaguá</item>
+        <item>Jardim Botânico</item>
+        <item>Jardim Sulacap</item>
+        <item>Lagoa</item>
+        <item>Laranjeiras</item>
+        <item>Leblon</item>
+        <item>Leme</item>
+        <item>Madureira</item>
+        <item>Magalhães Bastos</item>
+        <item>Maracanã</item>
+        <item>Marechal Hermes</item>
+        <item>Méier</item>
+        <item>Olaria</item>
+        <item>Oswaldo Cruz</item>
+        <item>Paciência</item>
+        <item>Padre Miguel</item>
+        <item>Pavuna</item>
+        <item>Praça Seca</item>
+        <item>Ramos</item>
+        <item>Realengo</item>
+        <item>Recreio dos Bandeirantes</item>
+        <item>Rocha Miranda</item>
+        <item>São Conrado</item>
+        <item>São Cristóvão</item>
+        <item>Senador Camará</item>
+        <item>Tanque</item>
+        <item>Taquara</item>
+        <item>Tijuca</item>
+        <item>Urca</item>
+        <item>Vargem Grande</item>
+        <item>Vargem Pequena</item>
+        <item>Vila Isabel</item>
+        <item>Vila Militar</item>
+        <item>Vila Valqueire</item>
+    </string-array>
+    <string-array name="BairrosSP">
+        <item>Bairro</item>
+    </string-array>
+    <string-array name="Hora">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="minutos">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

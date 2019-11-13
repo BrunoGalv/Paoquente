@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView171"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Promoção Normal"
+            android:textSize="22sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView151"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textView171"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/explpromonormal" />
+
+        <TextView
+            android:id="@+id/textView172"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView151"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Esta Promo aparece normalmente em seu Perfil e na Página Inicial"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView152"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/textView172"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@color/amarelo" />
+
+        <TextView
+            android:id="@+id/textView173"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView152"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Promoção Especial"
+            android:textSize="22sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView153"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textView173"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/explpromoespecial" />
+
+        <TextView
+            android:id="@+id/textView174"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView153"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Esta Promo tem Destaque especial na Página Inicial do App, podendo ser mais visualizada por seus clientes!"
+            android:textSize="20sp"
+            android:typeface="serif" />
+    </RelativeLayout>
+</ScrollView>

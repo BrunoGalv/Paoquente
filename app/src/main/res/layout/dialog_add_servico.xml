@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edtNomeCatAddServ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text|textCapSentences|textAutoCorrect|textAutoComplete"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/MyEditTextTheme"
+        android:layout_alignRight="@+id/textView85"
+        android:layout_alignEnd="@+id/textView85"
+        android:layout_alignLeft="@+id/textView85"
+        android:layout_alignStart="@+id/textView85" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNomeCatAddServ"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="Caso queira usar uma imagem:"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/imageView61"
+        android:layout_alignEnd="@+id/imageView61"
+        android:layout_alignLeft="@+id/imageView61"
+        android:layout_alignRight="@+id/imageView61"
+        android:layout_alignStart="@+id/imageView61"
+        android:layout_alignTop="@+id/imageView61"
+        app:srcCompat="@color/amarelo" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/textView85"
+        android:layout_alignLeft="@+id/textView85"
+        android:layout_alignRight="@+id/textView85"
+        android:layout_alignStart="@+id/textView85"
+        android:layout_below="@+id/textView85"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:paddingStart="1dp"
+        android:paddingTop="1dp"
+        app:srcCompat="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView61"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@mipmap/addphoto" />
+
+    <ProgressBar
+        android:id="@+id/progressBar8"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView63"
+        android:layout_alignStart="@+id/imageView63"
+        android:layout_alignTop="@+id/imageView63"
+        android:theme="@style/MySearchView"
+        android:visibility="invisible" />
+</RelativeLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etTituloLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:theme="@style/MyEditTextTheme">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_horizontal"
+            android:hint="Título"
+            android:inputType="text|textCapSentences"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            app:errorEnabled="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView110"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/imageView111"
+        android:layout_alignEnd="@+id/imageView111"
+        android:layout_alignLeft="@+id/imageView111"
+        android:layout_alignRight="@+id/imageView111"
+        android:layout_alignStart="@+id/imageView111"
+        android:layout_alignTop="@+id/imageView111"
+        app:srcCompat="@color/amarelo" />
+
+    <ImageView
+        android:id="@+id/imageView111"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignEnd="@+id/etTituloLayout"
+        android:layout_alignLeft="@+id/etTituloLayout"
+        android:layout_alignRight="@+id/etTituloLayout"
+        android:layout_alignStart="@+id/etTituloLayout"
+        android:layout_below="@+id/etTituloLayout"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="1dp"
+        android:paddingEnd="1dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:paddingStart="1dp"
+        android:paddingTop="1dp"
+        app:srcCompat="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView111"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@mipmap/addphoto" />
+
+    <ProgressBar
+        android:id="@+id/progressBar10"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView112"
+        android:layout_alignStart="@+id/imageView112"
+        android:layout_alignTop="@+id/imageView112"
+        android:theme="@style/MySearchView"
+        android:visibility="invisible" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etDescricaoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView111"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:theme="@style/MyEditTextTheme">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:ems="10"
+            android:gravity="top|center_horizontal"
+            android:hint="Descrição"
+            android:inputType="textCapSentences|textMultiLine"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            app:errorEnabled="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etPrecoLayout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etDescricaoLayout"
+        android:layout_alignLeft="@+id/etDescricaoLayout"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:theme="@style/MyEditTextTheme">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etPreco"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:digits="0123456789.,"
+            android:gravity="center_horizontal"
+            android:hint="Preço"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            app:errorEnabled="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etDescricaoLayout"
+        android:layout_alignBottom="@+id/etPrecoLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/etPrecoLayout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="KG"
+                android:theme="@style/MyEditTextTheme"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="GR"
+                android:theme="@style/MyEditTextTheme"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UN"
+            android:textColor="@android:color/black"
+            android:theme="@style/MyEditTextTheme" />
+
+    </RadioGroup>
+
+</RelativeLayout>

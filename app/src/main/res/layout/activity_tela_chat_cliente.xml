@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaChatCliente">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout39"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageView157"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@mipmap/back" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageViewTelaChat"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/imageView157"
+            android:layout_toRightOf="@+id/imageView157" />
+
+        <TextView
+            android:id="@+id/textView175"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/circleImageViewTelaChat"
+            android:layout_alignBottom="@+id/circleImageViewTelaChat"
+            android:layout_toStartOf="@+id/imageView158"
+            android:layout_toLeftOf="@+id/imageView158"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/circleImageViewTelaChat"
+            android:layout_toRightOf="@+id/circleImageViewTelaChat"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView158"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView175"
+            android:layout_alignBottom="@+id/textView175"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@mipmap/infowhite" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relativeLayout40"
+        android:layout_below="@+id/relativeLayout39">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewTelaChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="0dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout40"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toStartOf="@+id/imageView159"
+            android:background="@drawable/backgroundtextchat"
+            android:layout_toLeftOf="@+id/imageView159">
+
+            <EditText
+                android:id="@+id/editTextTelaChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:hint="Digite aqui..."
+                android:inputType="textCapSentences|textAutoCorrect|textAutoComplete"
+                android:textColor="@android:color/white"
+                android:layout_alignParentLeft="true"
+                android:theme="@style/MySearchView"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView159"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/relativeLayout41"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            app:srcCompat="@mipmap/send"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp" />
+    </RelativeLayout>
+</RelativeLayout>

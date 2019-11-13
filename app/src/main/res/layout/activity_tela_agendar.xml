@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oak"
+    tools:context="com.realvibedev.paoquente.TelaAgendar">
+
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@color/Marrom"
+        android:fontFamily="serif"
+        android:text="Notificar"
+        android:textAllCaps="false"
+        android:textColor="@color/amarelo"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Digite aqui..."
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:fontFamily="serif"
+        android:text="Notificar promoções"
+        android:textColor="@android:color/background_dark"
+        android:textSize="26sp" />
+
+</RelativeLayout>

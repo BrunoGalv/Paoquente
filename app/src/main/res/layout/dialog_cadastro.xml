@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editText38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Digite seu nome"
+        android:inputType="text|textCapSentences|textAutoCorrect|textAutoComplete"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/MyEditTextTheme" />
+</RelativeLayout>

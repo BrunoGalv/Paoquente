@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.realvibedev.paoquente.TelaFavoritos">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerFav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:theme="@style/MyEditTextTheme"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView194"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="É necessário estar logado"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView195"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView194"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Entrar/\nCadastrar"
+        android:textAllCaps="true"
+        android:textColor="@color/amarelo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPermissaoLocalizacao">
+
+
+    <TextView
+        android:id="@+id/textView196"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView197"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="Acesso à sua localização"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView197"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button45"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:text="Utilizamos sua localização para você poder ver as Padarias próximas."
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btnaddservprenchido"
+        android:text="permitir"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView175"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView196"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/permitirlocalizacao" />
+</RelativeLayout>

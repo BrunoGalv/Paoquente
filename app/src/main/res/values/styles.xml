@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:listDivider">@color/colorPrimary</item>
+        <item name="android:colorPressedHighlight">@color/colorPrimary</item>
+        <item name="android:state_pressed">@color/colorPrimary</item>
+        <item name="android:colorLongPressedHighlight">@color/colorPrimary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBarr" parent="Theme.AppCompat.NoActionBar" >
+        <item name="colorAccent">@color/cardview_shadow_start_color</item>
+        <item name="android:textColorHint">@android:color/black</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+
+    <style name="MySearchView">
+        <item name="colorSwitchThumbNormal">@android:color/white</item>
+        <item name="android:colorForeground">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:textColorHint">#dbdbdb</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" </style>
+
+    <style name="MyEditTextTheme">
+        <item name="colorSwitchThumbNormal">#ff5a595b</item>
+        <item name="android:colorForeground">#42221f1f</item>
+        <item name="colorControlNormal">#ff5a595b</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" </style>
+
+    <style name="MyEditTextThemePhone">
+        <item name="colorSwitchThumbNormal">#ff000000</item>
+        <item name="android:colorForeground">#ff000000</item>
+        <item name="colorControlNormal">#ff000000</item>
+        <item name="colorControlActivated">#ff000000</item>
+    </style>
+
+    <style name="MySpinner">
+        <item name="colorSwitchThumbNormal">@android:color/white</item>
+        <item name="android:colorForeground">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        parent="ThemeOverlay.AppCompat.Light.ActionBar" </style>
+
+</resources>

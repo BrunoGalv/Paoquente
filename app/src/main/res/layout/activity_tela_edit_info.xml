@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.realvibedev.paoquente.Padaria.TelaEditInfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/amarelologo"
+        android:id="@+id/relativeLayout4">
+
+        <ImageView
+            android:id="@+id/imageView57"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            app:srcCompat="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Editar informações"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout4">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp">
+
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="Horários"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView45"
+                android:layout_alignTop="@+id/textView45"
+                android:layout_toEndOf="@+id/textView45"
+                android:background="@drawable/button_clicked"
+                android:fontFamily="serif"
+                android:text="Editar"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/textView45" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView45"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:id="@+id/imageView59"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/recyclerView8"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@color/amarelo" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView45"
+                android:layout_below="@+id/imageView59"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="Telefones"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView46"
+                android:layout_alignTop="@+id/textView46"
+                android:layout_toEndOf="@+id/textView46"
+                android:background="@drawable/button_clicked"
+                android:fontFamily="serif"
+                android:text="Editar"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView46"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:id="@+id/imageView60"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignStart="@+id/textView46"
+                android:layout_below="@+id/recyclerView9"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@color/amarelo" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView46"
+                android:layout_below="@+id/imageView60"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="Formas de pagamento"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView47"
+                android:layout_below="@+id/textView47"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="Dinheiro"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView48"
+                android:layout_alignTop="@+id/textView48"
+                android:layout_toEndOf="@+id/textView48"
+                android:background="@drawable/button_clicked"
+                android:fontFamily="serif"
+                android:text="Editar"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView47"
+                android:layout_below="@+id/textView48"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="Cartão de crédito"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView49"
+                android:layout_alignTop="@+id/textView49"
+                android:layout_toEndOf="@+id/textView49"
+                android:background="@drawable/button_clicked"
+                android:fontFamily="serif"
+                android:text="Editar"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView49"
+                android:layout_below="@+id/textView49"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView46"
+                android:layout_below="@+id/recyclerView10"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="Cartão de débito"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView51"
+                android:layout_alignTop="@+id/textView51"
+                android:layout_toEndOf="@+id/textView51"
+                android:background="@drawable/button_clicked"
+                android:fontFamily="serif"
+                android:text="Editar"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/recyclerView10"
+                android:layout_below="@+id/textView51"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignStart="@+id/textView51"
+                android:layout_below="@+id/recyclerView11"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@color/amarelo" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

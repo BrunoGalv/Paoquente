@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.realvibedev.paoquente.TelaPadaria">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/amarelo"
+        android:id="@+id/relativeLayout7">
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView82"
+            android:layout_alignTop="@+id/imageView82"
+            android:layout_toEndOf="@+id/imageView82"
+            android:layout_toStartOf="@+id/imageView84"
+            android:ellipsize="end"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView82"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="9dp"
+            app:srcCompat="@mipmap/back" />
+
+        <ImageView
+            android:id="@+id/imageView84"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView85"
+            android:layout_alignTop="@+id/imageView85"
+            android:layout_toStartOf="@+id/imageView85"
+            app:srcCompat="@drawable/chatwhite" />
+
+        <ImageView
+            android:id="@+id/imageView85"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@mipmap/favoritewhite" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout7"
+        android:layout_above="@+id/relativeLayout8">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/containerPadaria"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/relativeLayout22"
+            android:layout_below="@+id/relativeLayout3"
+            android:background="@android:color/white"
+            android:elevation="0dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout8">
+
+        <ImageView
+            android:id="@+id/imageView93"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            app:srcCompat="@color/colorPrimaryDark" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigationPadaria"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            app:elevation="0dp"
+            app:itemIconTint="@drawable/bttom_n_v"
+            app:itemTextColor="@drawable/bttom_n_v"
+            app:menu="@menu/navigation_padaria" />
+    </RelativeLayout>
+
+</RelativeLayout>

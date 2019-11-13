@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oak"
+    tools:context="com.realvibedev.paoquente.TelaComercio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtComentario"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editText9"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="18dp"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="Outros comentários"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/space3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Adicione seu estabelecimento"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="88dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                android:ems="10"
+                android:hint="Nome do Estabelecimento"
+                android:inputType="text|textPersonName"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText3"
+                android:layout_alignStart="@+id/editText3"
+                android:layout_below="@+id/editText3"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                android:ems="10"
+                android:hint="Estado"
+                android:inputType="text|textPersonName"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText4"
+                android:layout_alignStart="@+id/editText4"
+                android:layout_below="@+id/editText4"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                android:ems="10"
+                android:hint="Cidade"
+                android:inputType="text|textPersonName"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText5"
+                android:layout_alignStart="@+id/editText5"
+                android:layout_below="@+id/editText5"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                android:ems="10"
+                android:hint="Bairro"
+                android:inputType="text|textPersonName"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText6"
+                android:layout_alignStart="@+id/editText6"
+                android:layout_below="@+id/editText6"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                android:ems="10"
+                android:hint="Seu nome"
+                android:inputType="text|textPersonName"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText7"
+                android:layout_alignStart="@+id/editText7"
+                android:layout_below="@+id/editText7"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="text|textPersonName"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText8"
+                android:layout_alignStart="@+id/editText8"
+                android:layout_below="@+id/editText8"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                android:ems="10"
+                android:hint="Telefone com DDD"
+                android:inputType="textPhonetic|number"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtComentario"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                android:fontFamily="serif"
+                android:text="Sou o proprietário ou gerente do estabelecimento"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/radioButton"
+                android:layout_marginTop="19dp"
+                android:background="@color/Marrom"
+                android:fontFamily="serif"
+                android:text="Adicionar"
+                android:textAllCaps="false"
+                android:textColor="@color/amarelo"
+                android:textSize="24sp" />
+
+            <Space
+                android:id="@+id/space3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editText5"
+                android:layout_alignTop="@+id/editText4"
+                android:layout_marginEnd="23dp"
+                android:layout_marginRight="23dp"
+                android:layout_toLeftOf="@+id/editText4"
+                android:layout_toStartOf="@+id/editText4"
+                app:srcCompat="@mipmap/location" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView16"
+                android:layout_alignStart="@+id/imageView16"
+                android:layout_alignTop="@+id/editText3"
+                app:srcCompat="@mipmap/loja" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView16"
+                android:layout_alignStart="@+id/imageView16"
+                android:layout_alignTop="@+id/editText7"
+                app:srcCompat="@mipmap/pessoa" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText8"
+                android:layout_alignLeft="@+id/imageView18"
+                android:layout_alignStart="@+id/imageView18"
+                android:layout_alignTop="@+id/editText8"
+                app:srcCompat="@mipmap/email" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText9"
+                android:layout_alignLeft="@+id/imageView19"
+                android:layout_alignStart="@+id/imageView19"
+                android:layout_alignTop="@+id/editText9"
+                app:srcCompat="@mipmap/cel" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

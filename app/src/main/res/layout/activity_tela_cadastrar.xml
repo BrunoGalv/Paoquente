@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaCadastrar">
+
+    <RelativeLayout
+        android:id="@+id/kdnbshc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageView131"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            app:srcCompat="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/textView169"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:elevation="10dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Cadastrar"
+            android:textColor="@android:color/white"
+            android:textSize="28sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/kdnbshc">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/etNomeSalaoLayoutPlano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@android:color/darker_gray"
+                android:theme="@style/MyEditTextTheme">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etNomeSalaoPlano"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="Nome do Estabelecimento"
+                    android:inputType="text|textCapSentences|textAutoCorrect"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="24sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/etEmailSalaoLayoutPlano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etNomeSalaoLayoutPlano"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@android:color/darker_gray"
+                android:theme="@style/MyEditTextTheme">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etEmailSalaoPlano"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="24sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/etSenhaSalaoLayoutPlano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etEmailSalaoLayoutPlano"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@android:color/darker_gray"
+                android:theme="@style/MyEditTextTheme"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#ff5a595b">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etSenhaSalaoPlano"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="Senha"
+                    android:inputType="textPassword"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="24sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/etTelefoneSalaoLayoutPlano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etSenhaSalaoLayoutPlano"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@android:color/darker_gray"
+                android:theme="@style/MyEditTextTheme">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etTelefoneSalaoPlano"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="Telefone"
+                    android:inputType="phone"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="24sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/etCnpjSalaoLayoutPlano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etTelefoneSalaoLayoutPlano"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@android:color/darker_gray"
+                android:theme="@style/MyEditTextTheme">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etCnpjSalaoPlano"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="CNPJ ou CPF do Responsável"
+                    android:inputType="phone"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="24sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/imageView150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView170"
+                android:layout_alignStart="@+id/button39"
+                android:layout_alignLeft="@+id/textView170"
+                android:layout_alignTop="@+id/button40"
+                android:elevation="3dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@mipmap/place" />
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etCnpjSalaoLayoutPlano"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:onClick="onPickButtonClick"
+                android:paddingStart="20dp"
+                android:text="Definir o local do estabelecimento"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:paddingLeft="20dp" />
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button40"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:ellipsize="end"
+                android:fontFamily="serif"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView170"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:fontFamily="sans-serif-light"
+                android:text="Cadastrar"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/button39"
+                android:layout_alignTop="@+id/button39"
+                android:layout_alignRight="@+id/button39"
+                android:layout_alignBottom="@+id/button39"
+                android:layout_marginStart="-1dp"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginRight="-1dp"
+                android:layout_marginBottom="-1dp"
+                app:srcCompat="@color/colorPrimaryDark" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView172"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        app:srcCompat="@color/cardview_shadow_start_color" />
+
+    <ProgressBar
+        android:id="@+id/progressBar19"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+</RelativeLayout>

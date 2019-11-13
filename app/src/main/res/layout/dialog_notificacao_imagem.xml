@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView124"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/editText42"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        app:srcCompat="@mipmap/addphoto" />
+
+    <ProgressBar
+        android:id="@+id/progressBar11"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView124"
+        android:layout_alignEnd="@+id/imageView124"
+        android:layout_alignStart="@+id/imageView124"
+        android:layout_alignTop="@+id/imageView124"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:visibility="invisible"
+        android:layout_alignRight="@+id/imageView124"
+        android:layout_alignLeft="@+id/imageView124" />
+
+    <EditText
+        android:id="@+id/editText42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Mensagem"
+        android:inputType="text|textCapSentences|textAutoCorrect|textAutoComplete"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/MyEditTextTheme" />
+</RelativeLayout>

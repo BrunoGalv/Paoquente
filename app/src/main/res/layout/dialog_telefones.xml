@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:paddingTop="7dp"
+        android:text="@string/telefoneObs"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView117"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:paddingTop="7dp"
+        android:text="@string/telefone1"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editText29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView115"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/textView115"
+        android:digits="0123456789() -"
+        android:hint="@string/telefone2"
+        android:inputType="phone"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/MyEditTextTheme"
+        android:layout_toRightOf="@+id/textView115" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView115"
+        android:layout_below="@+id/textView115"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:paddingTop="7dp"
+        android:text="@string/telefone2s"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/textView115" />
+
+    <EditText
+        android:id="@+id/editText30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView116"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/textView116"
+        android:hint="@string/telefone2"
+        android:digits="0123456789() -"
+        android:inputType="phone"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/MyEditTextTheme"
+        android:layout_toRightOf="@+id/textView116" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView116"
+        android:layout_below="@+id/textView116"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:paddingTop="7dp"
+        android:text="@string/telefone3"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/textView116" />
+
+    <EditText
+        android:id="@+id/editText31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView118"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/textView118"
+        android:hint="@string/telefone2"
+        android:digits="0123456789() -"
+        android:inputType="phone"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/MyEditTextTheme"
+        android:layout_toRightOf="@+id/textView118" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView118"
+        android:layout_below="@+id/textView118"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:paddingTop="7dp"
+        android:text="@string/telefone4"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/textView118" />
+
+    <EditText
+        android:id="@+id/editText32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView119"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/textView119"
+        android:hint="@string/telefone2"
+        android:digits="0123456789() -"
+        android:inputType="phone"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/MyEditTextTheme"
+        android:layout_toRightOf="@+id/textView119" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView119"
+        android:layout_below="@+id/textView119"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:paddingTop="7dp"
+        android:text="@string/telefone5"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/textView119" />
+
+    <EditText
+        android:id="@+id/editText33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView120"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/textView120"
+        android:hint="@string/telefone2"
+        android:digits="0123456789() -"
+        android:inputType="phone"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/MyEditTextTheme"
+        android:layout_toRightOf="@+id/textView120" />
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView120"
+        android:layout_below="@+id/textView120"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:paddingTop="7dp"
+        android:text="@string/wpp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/textView120" />
+
+    <net.rimoto.intlphoneinput.IntlPhoneInput
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView121"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/textView121"
+        android:theme="@style/MyEditTextThemePhone"
+        android:layout_toRightOf="@+id/textView121" />
+
+</RelativeLayout>
